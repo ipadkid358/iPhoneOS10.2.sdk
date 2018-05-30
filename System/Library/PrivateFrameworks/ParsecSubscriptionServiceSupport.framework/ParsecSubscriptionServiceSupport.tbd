@@ -1,0 +1,19 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ParsecSubscriptionServiceSupport.framework/ParsecSubscriptionServiceSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _PSSSSubscriptionManagerDidUpdateNotification, _PSSSSubscriptionsDictionaryUserInfoDictionaryKey,
+                          _ParsecSubscriptionServiceSupportVersionNumber, _ParsecSubscriptionServiceSupportVersionString,
+                          _kPSSSMachServiceName, _kPSSSMachServiceNameInternal ]
+    objc-classes:       [ _PSSSSubscriptionManager, _PSSSSubscriptionManagerClient, _PSSSSubscriptionManagerClientInternal,
+                          _PSSSSubscriptionManagerInternal, _PSSSSubscriptionManagerServer, _PSSSSubscriptionManagerStore,
+                          _ServerListenerDelegate, _ServerListenerDelegateInternal ]
+    objc-ivars:         [ _PSSSSubscriptionManagerClient._clientId, _PSSSSubscriptionManagerServer._internalListener,
+                          _PSSSSubscriptionManagerServer._internalListenerDelegate, _PSSSSubscriptionManagerServer._listener,
+                          _PSSSSubscriptionManagerServer._listenerDelegate, _PSSSSubscriptionManagerStore._notificationCenter,
+                          _PSSSSubscriptionManagerStore._store ]
+...

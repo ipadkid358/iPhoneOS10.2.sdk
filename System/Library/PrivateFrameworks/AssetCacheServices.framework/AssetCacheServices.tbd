@@ -1,0 +1,19 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AssetCacheServices.framework/AssetCacheServices
+current-version:       31.2
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _ACSImportFileIntoCachingServer, _ACSLocateCachingServer, _ACSMightCurrentNetworkHaveCachingServer,
+                          _A_CALLBACK_BLOCK_RELEASED_AN_OBJECT_IT_DID_NOT_OWN, _AssetCacheServicesVersionNumber,
+                          _AssetCacheServicesVersionString, __ACSLocateAllCachingServers, __kACSOptionAutoRefreshKey,
+                          __kACSOptionForceMissKey, __kACSServerAdviceKey, __kACSServerHostPortKey, _kACSAdviceConnectTimeoutKey,
+                          _kACSAdviceSupportsUrgencyKey, _kACSAdviceValidUntilKey, _kACSOptionCapabilitiesKey,
+                          _kACSOptionCapabilityImport, _kACSOptionCapabilityNamespaces, _kACSOptionCapabilityPersonalCaching,
+                          _kACSOptionImportStrategiesKey, _kACSOptionImportStrategyCopy, _kACSOptionImportStrategyHardLink,
+                          _kACSOptionImportStrategyRename, _kACSOptionImportStrategySymbolicLink, _kACSOptionMethodKey,
+                          _kACSOptionQuickMissKey, _kACSOptionSizeHintKey, _kACSOptionSourceLengthKey,
+                          _kACSOptionSourceOffsetKey ]
+...

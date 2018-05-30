@@ -1,0 +1,29 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DAEASOAuthFramework.framework/DAEASOAuthFramework
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    objc-classes:       [ _DAEASOAuthClient, _DAEASOAuthFlowController, _DAEASOAuthIdentity, _DAEASOAuthMigrationRequest,
+                          _DAEASOAuthOAuth2MigrationResponse, _DAEASOAuthRequest, _DAEASOAuthTokenRequest,
+                          _DAEASOAuthTokenResponse, _DAEASOAuthUserInfoRequest, _DAEASOAuthUserInfoResponse,
+                          _DAEASOAuthWebViewController ]
+    objc-ivars:         [ _DAEASOAuthFlowController._completion, _DAEASOAuthIdentity._displayName,
+                          _DAEASOAuthIdentity._refreshToken, _DAEASOAuthIdentity._token, _DAEASOAuthIdentity._username,
+                          _DAEASOAuthOAuth2MigrationResponse._accessToken, _DAEASOAuthOAuth2MigrationResponse._error,
+                          _DAEASOAuthOAuth2MigrationResponse._expiryDate, _DAEASOAuthOAuth2MigrationResponse._refreshToken,
+                          _DAEASOAuthOAuth2MigrationResponse._responseBody, _DAEASOAuthOAuth2MigrationResponse._statusCode,
+                          _DAEASOAuthTokenResponse._data, _DAEASOAuthTokenResponse._error,
+                          _DAEASOAuthTokenResponse._errorMessage, _DAEASOAuthTokenResponse._expiryDate,
+                          _DAEASOAuthTokenResponse._refreshToken, _DAEASOAuthTokenResponse._statusCode,
+                          _DAEASOAuthTokenResponse._token, _DAEASOAuthTokenResponse._user_id,
+                          _DAEASOAuthUserInfoResponse._displayName, _DAEASOAuthUserInfoResponse._emailAddress,
+                          _DAEASOAuthUserInfoResponse._error, _DAEASOAuthUserInfoResponse._errorMessage,
+                          _DAEASOAuthUserInfoResponse._statusCode, _DAEASOAuthWebViewController._account,
+                          _DAEASOAuthWebViewController._accountStore, _DAEASOAuthWebViewController._completion,
+                          _DAEASOAuthWebViewController._extension, _DAEASOAuthWebViewController._extensionCancellationError,
+                          _DAEASOAuthWebViewController._extensionRequestDidComplete,
+                          _DAEASOAuthWebViewController._presentationBlock, _DAEASOAuthWebViewController._serviceViewController ]
+...

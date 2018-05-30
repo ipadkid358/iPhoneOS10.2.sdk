@@ -1,0 +1,44 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Swift/libswiftUIKit.dylib
+current-version:       800.2.55
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ __TF5UIKit29UIDeviceOrientationIsPortraitFOSC19UIDeviceOrientationSb,
+                          __TF5UIKit30UIDeviceOrientationIsLandscapeFOSC19UIDeviceOrientationSb,
+                          __TF5UIKit32UIInterfaceOrientationIsPortraitFOSC22UIInterfaceOrientationSb,
+                          __TF5UIKit33UIInterfaceOrientationIsLandscapeFOSC22UIInterfaceOrientationSb,
+                          __TF5UIKit46UIDeviceOrientationIsValidInterfaceOrientationFOSC19UIDeviceOrientationSb,
+                          __TFE5UIKitCSo11UIAlertViewCft5titleSS7messageSS8delegateGSqPSo19UIAlertViewDelegate__17cancelButtonTitleGSqSS_17otherButtonTitlesSSGSaSS__S0_,
+                          __TFE5UIKitCSo11UIAlertViewcft5titleSS7messageSS8delegateGSqPSo19UIAlertViewDelegate__17cancelButtonTitleGSqSS_17otherButtonTitlesSSGSaSS__S0_,
+                          __TFE5UIKitCSo13UIActionSheetCft5titleGSqSS_8delegateGSqPSo21UIActionSheetDelegate__17cancelButtonTitleGSqSS_22destructiveButtonTitleGSqSS_17otherButtonTitlesSSGSaSS__S0_,
+                          __TFE5UIKitCSo13UIActionSheetcft5titleGSqSS_8delegateGSqPSo21UIActionSheetDelegate__17cancelButtonTitleGSqSS_22destructiveButtonTitleGSqSS_17otherButtonTitlesSSGSaSS__S0_,
+                          __TFE5UIKitCSo6UIViewg33_defaultCustomPlaygroundQuickLookOs19PlaygroundQuickLook,
+                          __TFE5UIKitCSo7UIColorCfT15colorLiteralRedSf5greenSf4blueSf5alphaSf_S0_,
+                          __TFE5UIKitCSo7UIColorcfT15colorLiteralRedSf5greenSf4blueSf5alphaSf_S0_,
+                          __TFE5UIKitCSo7UIImageCfT24imageLiteralResourceNameSS_S0_,
+                          __TFE5UIKitCSo7UIImagecfT24imageLiteralResourceNameSS_S0_,
+                          __TFE5UIKitOSC19UIDeviceOrientationg10isPortraitSb,
+                          __TFE5UIKitOSC19UIDeviceOrientationg11isLandscapeSb,
+                          __TFE5UIKitOSC19UIDeviceOrientationg27isValidInterfaceOrientationSb,
+                          __TFE5UIKitOSC19UIDeviceOrientationg6isFlatSb, __TFE5UIKitOSC22UIInterfaceOrientationg10isPortraitSb,
+                          __TFE5UIKitOSC22UIInterfaceOrientationg11isLandscapeSb,
+                          __TFE5UIKitV10Foundation17URLResourceValuesg19thumbnailDictionaryGSqGVs10DictionaryVS0_19URLThumbnailSizeKeyCSo7UIImage__,
+                          __TFE5UIKitV10Foundation9IndexPathCfT3rowSi7sectionSi_S1_,
+                          __TFE5UIKitV10Foundation9IndexPathCfT4itemSi7sectionSi_S1_, __TFE5UIKitV10Foundation9IndexPathg3rowSi,
+                          __TFE5UIKitV10Foundation9IndexPathg4itemSi, __TFE5UIKitV10Foundation9IndexPathg7sectionSi,
+                          __TFE5UIKitV10Foundation9IndexPaths3rowSi, __TFE5UIKitV10Foundation9IndexPaths4itemSi,
+                          __TFE5UIKitV10Foundation9IndexPaths7sectionSi,
+                          __TTWCSo6UIViews37_DefaultCustomPlaygroundQuickLookable5UIKitFS0_g33_defaultCustomPlaygroundQuickLookOs19PlaygroundQuickLook,
+                          __TTWCSo7UIColors26_ExpressibleByColorLiteral5UIKitFS0_CfT15colorLiteralRedSf5greenSf4blueSf5alphaSf_x,
+                          __TTWCSo7UIImages26_ExpressibleByImageLiteral5UIKitFS0_CfT24imageLiteralResourceNameSS_x,
+                          __TWPCSo6UIViews37_DefaultCustomPlaygroundQuickLookable5UIKit,
+                          __TWPCSo7UIColors26_ExpressibleByColorLiteral5UIKit,
+                          __TWPCSo7UIImages26_ExpressibleByImageLiteral5UIKit, __TWPVSC12UIEdgeInsetss9Equatable5UIKit,
+                          __TWPVSC8UIOffsets9Equatable5UIKit, __TWaCSo6UIViews37_DefaultCustomPlaygroundQuickLookable5UIKit,
+                          __TWaCSo7UIColors26_ExpressibleByColorLiteral5UIKit,
+                          __TWaCSo7UIImages26_ExpressibleByImageLiteral5UIKit, __TWaVSC12UIEdgeInsetss9Equatable5UIKit,
+                          __TWaVSC8UIOffsets9Equatable5UIKit, '__swift_FORCE_LOAD_$_swiftUIKit' ]
+...

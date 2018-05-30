@@ -1,0 +1,60 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/IOAccessoryManager.framework/IOAccessoryManager
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _AWDIOAccessoryManagerVhiEventReadFrom, _AWDIOAccessoryManagerVloEventReadFrom,
+                          _AWDIOAccessoryManagerVoltageMeasurementEventReadFrom, _IOAccessoryManagerVersionNumber,
+                          _IOAccessoryManagerVersionString, _IOAccessoryRequestResetLifetimeDuration,
+                          _IOAccessoryResetLifetimeDuration, _IOAccessoryStartVoltageEventMonitor,
+                          _IOAccessoryVoltageEventMonitorMode, _absoluteToNanoseconds, _enableVoltageEventMonitorModeAggD,
+                          _enableVoltageEventMonitorModeAppleCareLogging, _enableVoltageEventMonitorModeConsole,
+                          _gAccyHealthDictionary, _gAppleCareLogArray, _gBubbRdDataFilepath, _gBubbRdLogFilepath,
+                          _gDigitalIDCountWetDict, _gDigitalIDTimeWetDict, _gDockState, _gEnableBubbRdLogging,
+                          _gEnableTapToRadarPopup, _gEnableTimeToDryPopup, _gGiveUserRadarOption, _gIOiter, _gIOnotify,
+                          _gIoamLogFilepath, _gIsInternalBuild, _gLdcmBehaviorPlist, _gLdcmParams, _gLiquidNotificationContext,
+                          _gUserLdcmParams, _getBootArgs, _kAccyHealthDictionaryMaxCount, _kAggDKnownDigitalID,
+                          _kAggDUnknownDigitalID, _kIOAMLDCMBehaviorPlistBehaviorBitmaskKey,
+                          _kIOAMLDCMBehaviorPlistConsecutiveDetectedInterval, _kIOAMLDCMBehaviorPlistConsecutiveDetectedThresh,
+                          _kIOAMLDCMBehaviorPlistConsecutiveNotDetectedInterval,
+                          _kIOAMLDCMBehaviorPlistConsecutiveNotDetectedThresh, _kIOAMLDCMBehaviorPlistDeviceGen1SubKey,
+                          _kIOAMLDCMBehaviorPlistFdpBitmaskKey, _kIOAMLDCMBehaviorPlistLegacySubKey,
+                          _kIOAMLDCMBehaviorPlistVersionKey, _kLdcmMaxEventHistoryCount, _kSupportedLdcmBehaviorPlistVersion,
+                          _stats ]
+    objc-classes:       [ _AWDIOAccessoryManagerVhiEvent, _AWDIOAccessoryManagerVloEvent,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent, _IOAccessoryLdcmHealthClass,
+                          _IOAccessoryUserLdcmParamClass ]
+    objc-ivars:         [ _AWDIOAccessoryManagerVhiEvent._accOrientation, _AWDIOAccessoryManagerVhiEvent._accPowerMode,
+                          _AWDIOAccessoryManagerVhiEvent._digitalID, _AWDIOAccessoryManagerVhiEvent._has,
+                          _AWDIOAccessoryManagerVhiEvent._portID, _AWDIOAccessoryManagerVhiEvent._timestamp,
+                          _AWDIOAccessoryManagerVhiEvent._voltageDN1, _AWDIOAccessoryManagerVhiEvent._voltageDN2,
+                          _AWDIOAccessoryManagerVhiEvent._voltageDP1, _AWDIOAccessoryManagerVhiEvent._voltageDP2,
+                          _AWDIOAccessoryManagerVloEvent._accOrientation, _AWDIOAccessoryManagerVloEvent._accPowerMode,
+                          _AWDIOAccessoryManagerVloEvent._digitalID, _AWDIOAccessoryManagerVloEvent._has,
+                          _AWDIOAccessoryManagerVloEvent._portID, _AWDIOAccessoryManagerVloEvent._timestamp,
+                          _AWDIOAccessoryManagerVloEvent._voltageDN1, _AWDIOAccessoryManagerVloEvent._voltageDN2,
+                          _AWDIOAccessoryManagerVloEvent._voltageDP1, _AWDIOAccessoryManagerVloEvent._voltageDP2,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._accOrientation,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._accPowerMode,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._digitalID,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._has,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._portID,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._timestamp,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._vhi,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._voltageDN1,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._voltageDN2,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._voltageDP1,
+                          _AWDIOAccessoryManagerVoltageMeasurementEvent._voltageDP2, _IOAccessoryLdcmHealthClass._dryCount,
+                          _IOAccessoryLdcmHealthClass._isHealthy, _IOAccessoryLdcmHealthClass._lastSeenTimestamp,
+                          _IOAccessoryLdcmHealthClass._leakagePassedCount, _IOAccessoryLdcmHealthClass._outOfProfileCount,
+                          _IOAccessoryLdcmHealthClass._overVoltageCount, _IOAccessoryLdcmHealthClass._overVoltageTimestamp,
+                          _IOAccessoryLdcmHealthClass._rsvd0, _IOAccessoryLdcmHealthClass._rsvd1,
+                          _IOAccessoryLdcmHealthClass._rsvd2, _IOAccessoryLdcmHealthClass._rsvd3,
+                          _IOAccessoryLdcmHealthClass._version, _IOAccessoryLdcmHealthClass._wetCount,
+                          _IOAccessoryUserLdcmParamClass._fdpBehaviorMask, _IOAccessoryUserLdcmParamClass._maxUpFluctuationMv,
+                          _IOAccessoryUserLdcmParamClass._maxVhiDurationSec, _IOAccessoryUserLdcmParamClass._minVhiDurationSec,
+                          _IOAccessoryUserLdcmParamClass._userBehaviorMask ]
+...

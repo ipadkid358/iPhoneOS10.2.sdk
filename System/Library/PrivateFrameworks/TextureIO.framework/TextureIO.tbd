@@ -1,0 +1,52 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/TextureIO.framework/TextureIO
+current-version:       1.42
+compatibility-version: 1
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _TXRErrorDomain, _TXRErrorKey, _TextureIOVersionNumber, _TextureIOVersionString, __newTXRErrorWithCode,
+                          __newTXRErrorWithCodeAndErrorString, __newTXRErrorWithCodeAndUserInfo, _fastConvert, _slowConvert ]
+    objc-classes:       [ _TXRArrayElement, _TXRDataConverter, _TXRDataScaler, _TXRDefaultBuffer, _TXRDefaultBufferAllocator,
+                          _TXRDefaultBufferMap, _TXRDeferredElementInfo, _TXRDeferredImageInfo, _TXRDeferredMipmapInfo,
+                          _TXRDeferredTextureInfo, _TXRFileDataSourceProvider, _TXRImage, _TXRImageIndependent, _TXRImageInfo,
+                          _TXRMipmapLevel, _TXROptions, _TXRParserBase, _TXRParserImageIO, _TXRParserKTX, _TXRPixelFormatInfo,
+                          _TXRTexture, _TXRTextureInfo, _TXRXCAssetParser, _TXRXCFileAttributes, _TXRXCMipFileAttributes,
+                          _TXRXCSetAttributes, _TXRXCTextureConfig ]
+    objc-ivars:         [ _TXRArrayElement._faces, _TXRDefaultBuffer._data, _TXRDefaultBufferMap._buffer,
+                          _TXRDefaultBufferMap._bytes, _TXRDeferredElementInfo._faces, _TXRDeferredElementInfo._infoLoaded,
+                          _TXRDeferredImageInfo._info, _TXRDeferredImageInfo._infoLoaded, _TXRDeferredMipmapInfo._elements,
+                          _TXRDeferredTextureInfo._info, _TXRDeferredTextureInfo._mipmaps,
+                          _TXRFileDataSourceProvider._bufferAllocator, _TXRFileDataSourceProvider._fileIOQueue,
+                          _TXRFileDataSourceProvider._infoLoaded, _TXRFileDataSourceProvider._parser,
+                          _TXRFileDataSourceProvider._textureInfo, _TXRImage._buffer, _TXRImage._bytesPerImage,
+                          _TXRImage._bytesPerRow, _TXRImage._dataSourceProvider, _TXRImage._element, _TXRImage._error,
+                          _TXRImage._face, _TXRImage._level, _TXRImage._offset, _TXRImageIndependent._alphaInfo,
+                          _TXRImageIndependent._dimensions, _TXRImageIndependent._pixelFormat, _TXRImageInfo._buffer,
+                          _TXRImageInfo._bytesPerImage, _TXRImageInfo._bytesPerRow, _TXRImageInfo._error, _TXRImageInfo._offset,
+                          _TXRMipmapLevel._elements, _TXRMipmapLevel._level, _TXROptions._colorSpaceHandling,
+                          _TXROptions._cubemapFromVerticallyStackedImage, _TXROptions._multiplyAlpha,
+                          _TXROptions._originOperation, _TXRParserBase._bitsPerPixel, _TXRParserBase._blockHeight,
+                          _TXRParserBase._blockWidth, _TXRParserBase._bytesPerRow, _TXRParserBase._depth, _TXRParserBase._height,
+                          _TXRParserBase._imageData, _TXRParserBase._imageHasAlpha, _TXRParserBase._imageOrientation,
+                          _TXRParserBase._numArrayElements, _TXRParserBase._numFaces, _TXRParserBase._numMipmapLevels,
+                          _TXRParserBase._numPixelComponents, _TXRParserBase._pixelFormat,
+                          _TXRParserBase._pixelFormatIsCompressed, _TXRParserBase._sampleCount, _TXRParserBase._width,
+                          _TXRParserImageIO._imageInfo, _TXRParserImageIO._textureInfo, _TXRParserKTX._baseInternalFormat,
+                          _TXRParserKTX._bytesOfKeyValueData, _TXRParserKTX._deferredTextureInfo,
+                          _TXRParserKTX._fileIsLittleEndian, _TXRParserKTX._format, _TXRParserKTX._internalFormat,
+                          _TXRParserKTX._internalSizedFormatLookup, _TXRParserKTX._isCompressed, _TXRParserKTX._parserQueue,
+                          _TXRParserKTX._shouldFlipVertically, _TXRParserKTX._textureInfo, _TXRParserKTX._type,
+                          _TXRParserKTX._typeSize, _TXRTexture._alphaInfo, _TXRTexture._bufferAllocator, _TXRTexture._cubemap,
+                          _TXRTexture._dimensions, _TXRTexture._mipmapLevels, _TXRTexture._pixelFormat,
+                          _TXRTextureInfo._alphaInfo, _TXRTextureInfo._arrayLength, _TXRTextureInfo._cubemap,
+                          _TXRTextureInfo._dimensions, _TXRTextureInfo._error, _TXRTextureInfo._mipmapLevelCount,
+                          _TXRTextureInfo._pixelFormat, _TXRXCFileAttributes._colorSpace, _TXRXCFileAttributes._fileFormat,
+                          _TXRXCFileAttributes._origin, _TXRXCMipFileAttributes._face, _TXRXCMipFileAttributes._level,
+                          _TXRXCSetAttributes._interpretation, _TXRXCSetAttributes._origin,
+                          _TXRXCTextureConfig._baseFileAttributes, _TXRXCTextureConfig._displayColorSpace,
+                          _TXRXCTextureConfig._fileAttributesList, _TXRXCTextureConfig._graphicsFeatureSet,
+                          _TXRXCTextureConfig._idiom, _TXRXCTextureConfig._memory, _TXRXCTextureConfig._mipmapOption,
+                          _TXRXCTextureConfig._pixelFormat, _TXRXCTextureConfig._scaleFactor ]
+...
